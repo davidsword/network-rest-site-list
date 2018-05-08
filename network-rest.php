@@ -2,14 +2,14 @@
 /*
 Plugin Name: Network REST Site List
 Plugin URI: https://github.com/davidsword/network-rest-site-list
-Description: Adds a rest endpoint for Wordpress multisite network installations to list all sites. Similar to wpcli `wp site list`.
+Description: Adds a rest endpoint for Wordpress multisite network installations to list all sites. Similar to wpcli `wp site list`
 Version: 1.0.0
 Author: davidsword
 Author URI: https://davidsword.ca/
 License: GPLv3
 License URI: https://github.com/davidsword/network-rest-site-list/blob/master/LICENSE
 
-See README's
+See README.txt or README.md
 See https://github.com/davidsword/network-rest-site-list
 */
 
@@ -41,9 +41,11 @@ add_action( 'rest_api_init', function () {
 
         // if we're searching, filter with php (instead of mysql) to preserve cache
         if (isset($_GET['q']) || isset($_GET['query'])) {
-            foreach ($data as $k => $site)
-                if (!strstr($site['path'],$_GET['q']))
+            foreach ($data as $k => $site) {
+                if (!strstr($site['path'],$_GET['q'])) {
                     unset($data[$k]);
+                }
+            }
         }
 
         // return an error in the form of a result if nothing found
