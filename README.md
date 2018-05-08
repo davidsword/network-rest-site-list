@@ -2,7 +2,18 @@
 
 Creates a REST endpoint to list all sites and their IDs in a Wordpress Multisite Network.
 
-🚀 Access the endpoint with `/wp-json/ntwrkrst/v1/wpsitelist`
+🚀 Access the endpoint with `/wp-json/ntwrkrst/v1/wpsitelist` - returns:
+
+```
+{
+    "123": {
+        "blog_id" : "123",
+        "domain":"example.com",
+        "path":"\/main\/"
+    }
+    // etc
+}
+```
 
 🔬 Query sites path with a search, similar to `/wp-json/ntwrkrst/v1/wpsitelist?q=keyword`
 
