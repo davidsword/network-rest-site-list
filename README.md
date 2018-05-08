@@ -8,4 +8,4 @@ Creates a REST endpoint to list all sites and their IDs in a Wordpress Multisite
 
 📦 Cache's results for 24h
 
-⚙️ Built primarily for an Alfred workflow to quickly retrieve site IDs, available here: https://github.com/davidsword/alfred-workflow-wpsitelist
+⚙️ Built primarily for [this Alfred workflow](https://github.com/davidsword/alfred-workflow-wpsitelist) to quickly retrieve site IDs.
