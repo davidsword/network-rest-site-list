@@ -1,8 +1,9 @@
 === Network Rest Site List ===
 Contributors: davidsword
 Tags: REST, API, WP JSON, NETWORK, MULTISITE, RESTFUL
-Requires at least: 4.5
-Tested up to: 4.9.2
+Requires at least: 4.9
+Tested up to: 4.9.5
+Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv3
 License URI: https://github.com/davidsword/network-rest-site-list/blob/master/LICENSE
