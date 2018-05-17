@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv3
 License URI: https://github.com/davidsword/network-rest-site-list/blob/master/LICENSE
 
-Simple small Wordpress plugin that creates a REST endpoint to list all sites and their IDs in a Wordpress Multisite Network. Similar to wp-cli's `wp site list` command.
+Simple small WordPress plugin that creates a REST endpoint to list all sites and their IDs in a WordPress Multisite Network. Similar to wp-cli's `wp site list` command.
 
 == Description ==
 
