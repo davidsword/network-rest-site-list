@@ -1,6 +1,6 @@
-# Wordpress Plugin - Network Rest Site List
+# WordPress Plugin - Network Rest Site List
 
-Simple small Wordpress plugin that creates a REST endpoint to list all sites and their IDs in a Wordpress Multisite Network. Similar to wp-cli's `wp site list` command.
+Simple small WordPress plugin that creates a REST endpoint to list all sites and their IDs in a WordPress Multisite Network. Similar to wp-cli's `wp site list` command.
 
 🚀 Access the endpoint with `/wp-json/ntwrkrst/v1/wpsitelist` - which returns:
 
